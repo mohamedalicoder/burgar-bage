@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* White text color */
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; /* Adjust size as needed */
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White link color */
+}
+
+.cta-btn {
+    background-color: #ff4500; /* Orange button color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #ff6a36; /* Darker orange on hover */
+}
+
+/* Hero Section Styles */
+.hero {
+    height: 100vh; /* Full screen height */
+    background-image: url('./default_burger_hut_1_4f686727-8d47-4717-b6dc-4a894c7d099a.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background */
+    position: relative;
+    color: #fff;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: #ff4500; /* Orange button color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #ff6a36; /* Darker orange on hover */
+}
+
+
+/* Service Section Styles */
+.service {
+    padding: 50px 0;
+    background-color: #222; /* Slightly darker background */
+}
+
+.service h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #ff4500; /* Orange text color */
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background-color: #333;
+    width: 22%; /* Adjust width based on desired number of cards per row */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.service-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    color: #ff4500; /* Orange text color */
+}
+
+.service-card p {
+    font-size: 1rem;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+/* Add hover effect to cards */
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+
+
+/* Testimonial Section Styles */
+.testimonial {
+    padding: 50px 0;
+    background-color: #2a2a2a; /* Dark background color */
+}
+
+.testimonial h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #ff4500; /* Orange text color */
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background-color: #333;
+    width: 30%; /* Adjust width based on desired number of cards per row */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.testimonial-card p {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.testimonial-card h3 {
+    font-size: 1rem;
+    color: #ff4500; /* Orange text color */
+    margin: 0;
+}
+
+/* Add hover effect to cards */
+.testimonial-card:hover {
+    transform: translateY(-10px);
+}
+
+
+
+/* Location and Contact Section Styles */
+.location-contact {
+    padding: 50px 0;
+    background-color: #2a2a2a; /* Dark background color */
+}
+
+.location-contact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #ff4500; /* Orange text color */
+}
+
+.location-contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.locations, .contact-details {
+    background-color: #333;
+    width: 45%; /* Adjust width to fit within container */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.locations h3, .contact-details h3 {
+    font-size: 1.5rem;
+    color: #ff4500; /* Orange text color */
+    margin-bottom: 20px;
+}
+
+.locations ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.locations ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.contact-details p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
